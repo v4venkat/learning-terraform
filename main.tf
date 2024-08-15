@@ -2,9 +2,10 @@ data "aws_ami" "app_ami" {
   most_recent = false
 
   filter {
-    name   = "name"
+    name   = "image-id"
     values = ["ami-0ae8f15ae66fe8cda"]
   }
+
   owners = ["979382823631"] # Bitnami
 }
 
