@@ -5,12 +5,6 @@ data "aws_ami" "app_ami" {
     name   = "name"
     values = ["ami-0ae8f15ae66fe8cda"]
   }
-
-  filter {
-    name   = "virtualization-type"
-    values = ["hvm"]
-  }
-
   owners = ["979382823631"] # Bitnami
 }
 
