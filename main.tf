@@ -3,7 +3,7 @@ data "aws_ami" "app_ami" {
 
   filter {
     name   = "name"
-    values = ["Amazon Linux 2023 AMI 2023.5.20240805.0 x86_64 HVM kernel-6.1"]
+    values = ["ami-0ae8f15ae66fe8cda"]
   }
 
   filter {
